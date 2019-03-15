@@ -1,5 +1,9 @@
+---
 Quantum Machine Learning
-In quantum information theory, a mixed state of the composite system is described by a density matrix acting on the composite Hilbert space (i.e the tensor product of the sub-sytems Hilbert spaces). In these composite systems, a physical phenomenon can occur, called entanglement, such that the quantum state of each subsystem cannot be described independent of the state of the other subsystems, and measurement of physical properties performed on entangled subsystems are found to be correlated. Not all the composite systems have this property; a state without quantum entanglement is called a separable quantum state.
+=============
+---
+In quantum information theory, a mixed state of the composite system is described by a density matrix acting on the composite Hilbert space (i.e the tensor product of the sub-sytems Hilbert spaces).
+In these composite systems, a physical phenomenon can occur, called entanglement, such that the quantum state of each subsystem cannot be described independent of the state of the other subsystems, and measurement of physical properties performed on entangled subsystems are found to be correlated. Not all the composite systems have this property; a state without quantum entanglement is called a separable quantum state.
 
 Given a density matrix for a composite system, the task to find whether or not the state is entangled in general, is considered to be a difficult task, although in some special cases there exists a simple analytic method. This problem is sometimes called the separability problem in quantum information theory and it's been shown to be NP-hard. A separability criterion or an entanglement witness, is a necessary condition a density matrix must satisfy to be separable or entangled, respectively. But it's only a necessary condition (and not sufficient) so that if the criterion or witness does not hold, the test is inconclusive.
 
