@@ -18,8 +18,12 @@ Another possibility which will be analyzed is that given a number of witnesses a
 In addition, robustness of each method will be analyzed to provide a robust method with higher noise resistance for deciding the separability.
 
 Finally, we can employ these machine learning methods to higher dimensions to see whether it is possible to find a less complex separability criterion or entanglement witness with a high certainty.
+
 -----
 [1] Isaac Chuang and Michael Nielsen, Quantum Computation and Quantum Information, second ed. , 2010
+
 [2] Wikipedia
+
 [3] M. Horodecki, P. Horodecki, R. Horodecki, Separability of mixed states: necessary and sufficient conditions, Phys. Lett. A 223, 1 ,1996.
+
 [4] Sevag Gharibian, Strong NP-Hardness of the Quantum Separability Problem, Quantum Information and Computation, Vol. 10, No. 3&4, pp. 343-360, 2010. arXiv:0810.4507.
