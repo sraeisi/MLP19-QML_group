@@ -52,7 +52,8 @@ Important features can be determined by tree classifiers/regressors and the magn
 I think the **Decision Tree Regressor** can Provide a good Classification of Entangled States over Separable ones .
 -->
  
-
+#### Feature Extraction and feature reduction
+In "code.ipynb" file there are sections related to **the data reduction** where feature extraction and feature reduction techniques such as PCA,RFE,... could be found.
 
 
 ----
