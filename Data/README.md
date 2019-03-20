@@ -9,7 +9,7 @@ DataFrame contains 10,000 records of random density matrices and contains follow
 
 - 15 features for the density matrix, which 
 
-![](feature.png)
+![](pics/feature.png)
 
 
 sigma_x, sigma_y and sigma_z are the pauli matrices.
