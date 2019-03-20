@@ -2,7 +2,7 @@ Quantum Machine Learning Project
 ====
 Data is a pandas DataFrame which should be imported via :
 
-data=pd.read_pickle('data.gz' , compression='gz')
+data=pd.read_pickle('data.gz' , compression='gzip')
 
 
 DataFrame contains 10,000 records of random density matrices and contains following fields:
