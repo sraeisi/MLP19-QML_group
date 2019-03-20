@@ -16,7 +16,7 @@ sigma_x, sigma_y and sigma_z are the pauli matrices.
 
 - the PPT criterion, which is the determinant of the partial transpose of the bi-partite system. The PPT criterion says that if this value is negative, then the density matrix is entangled and if positive, then it is seprable.
 
-- the binary class of these matrices, where label '1' is for entangled matrices where '0' denotes the class of seprable matrices.
+- the binary class of these matrices, where label '1' is for entangled matrices and '0' denotes the class of seprable matrices.
 
 
 
