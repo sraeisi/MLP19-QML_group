@@ -9,12 +9,7 @@ DataFrame contains 10,000 records of random density matrices and contains follow
 
 - 15 features for the density matrix, which 
 
-$$Features = \begin{bmatrix}
-\sigma_x\otimes\sigma_x & \sigma_x\otimes\sigma_y & \sigma_x\otimes\sigma_z & \sigma_x\otimes\ \mathbb{1} 
-\\ \sigma_y\otimes\sigma_x & \sigma_y\otimes\sigma_y & \sigma_y\otimes\sigma_z & \sigma_y\otimes\ \mathbb{1}
-\\ \sigma_z\otimes\sigma_x & \sigma_z\otimes\sigma_y & \sigma_z\otimes\sigma_z & \sigma_z\otimes\ \mathbb{1}
-\\ \mathbb{1}\otimes\sigma_x & \mathbb{1}\otimes\sigma_y & \mathbb{1}\otimes\sigma_z & \mathbb{1}\otimes\ \mathbb{1}
-\end{bmatrix}$$
+![](feature.png)
 
 
 sigma_x, sigma_y and sigma_z are the pauli matrices.
