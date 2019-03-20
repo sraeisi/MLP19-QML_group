@@ -1,32 +1,27 @@
 Quantum Machine Learning Project
 ====
-Data is  Stored in a ".npy" Format which Contains 100000 Samples.
-in order to successfully run the Code you need to put all of ".npy" Files in the Same Directory as the Code
-or Generate your own Data (Which Will take a Longer Time to Run)
-
-
-
-<!--
-Data size was bigger than 25MB so it couldn't be uploaded on github, you can find the data on dropbox :
-
 Data is a pandas DataFrame which should be imported via :
 
-url = 'https://www.dropbox.com/s/zapb2jjm0ihp14a/data.gz?dl=1'
-
-s=requests.get(url, stream=True).content
-
-data=pd.read_pickle(io.BytesIO(s) , compression='gz')
+data=pd.read_pickle('data.gz' , compression='gz')
 
 
-DataFrame contains 500,000 records of random density matrices and contains following fields:
+DataFrame contains 10,000 records of random density matrices and contains following fields:
 
-- 15 features for the density matrix, which is feature_i,j = tr(\rho * (sigma_i \ sigma_j)) where sigma_4 = I the identity operator,
-and sigma_1 = sigma_x , sigma_2 = sigma_y , sigma_3 = sigma_z are the pauli matrices.
+- 15 features for the density matrix, which 
+
+$$Features = \begin{bmatrix}
+\sigma_x\otimes\sigma_x & \sigma_x\otimes\sigma_y & \sigma_x\otimes\sigma_z & \sigma_x\otimes\ \mathbb{1} 
+\\ \sigma_y\otimes\sigma_x & \sigma_y\otimes\sigma_y & \sigma_y\otimes\sigma_z & \sigma_y\otimes\ \mathbb{1}
+\\ \sigma_z\otimes\sigma_x & \sigma_z\otimes\sigma_y & \sigma_z\otimes\sigma_z & \sigma_z\otimes\ \mathbb{1}
+\\ \mathbb{1}\otimes\sigma_x & \mathbb{1}\otimes\sigma_y & \mathbb{1}\otimes\sigma_z & \mathbb{1}\otimes\ \mathbb{1}
+\end{bmatrix}$$
+
+
+sigma_x, sigma_y and sigma_z are the pauli matrices.
 
 - the PPT criterion, which is the determinant of the partial transpose of the bi-partite system. The PPT criterion says that if this value is negative, then the density matrix is entangled and if positive, then it is seprable.
 
 - the binary class of these matrices, where label '1' is for entangled matrices where '0' denotes the class of seprable matrices.
--->
 
 
 
