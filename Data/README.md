@@ -6,8 +6,11 @@ Data size was bigger than 25MB so it couldn't be uploaded on github, you can fin
 Data is a pandas DataFrame which should be imported via :
 
 url = 'https://www.dropbox.com/s/zapb2jjm0ihp14a/data.gz?dl=1'
+
 s=requests.get(url, stream=True).content
+
 data=pd.read_pickle(io.BytesIO(s) , compression='gz')
+
 
 DataFrame contains 500,000 records of random density matrices and contains following fields:
 
